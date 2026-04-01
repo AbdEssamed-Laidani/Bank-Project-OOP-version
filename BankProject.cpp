@@ -1,20 +1,10 @@
 #include <iostream>
-#include "clsLoginScreen.h"
-#include "clsCurrency.h"
-using namespace std;
-
+#include "Header Files/screens/Users/clsLoginScreen.h"
 
 int main()
 {
-	while (true)
-	{
-		if (!clsLoginScreen::ShowLoginScreen())
-			break;
-	}
 
+	while (clsLoginScreen::ShowLoginScreen());
 	
-	
-
-
 	return 0;
 }

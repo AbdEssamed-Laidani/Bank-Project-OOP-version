@@ -1,3 +1,3 @@
 #pragma once
-#include "clsUser.h"
+#include "Header Files\core\clsUser.h"
 		clsUser CurrentUser = clsUser::Find("", "");
