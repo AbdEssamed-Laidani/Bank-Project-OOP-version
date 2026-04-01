@@ -426,3 +426,12 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+.vs/
+.idea/
+x64/
+Debug/
+Release/
+*.user
+0
